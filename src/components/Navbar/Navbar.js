@@ -29,6 +29,7 @@ const Navbar = () => {
   };
 
   return (
+    //   Can replace <AppBar> by <Box>
     <AppBar elevation={0} sx={{ backgroundColor: "white" }}>
       <Toolbar>
         <Box
@@ -38,12 +39,13 @@ const Navbar = () => {
             justifyContent: "space-between",
             alignItems: "center",
             width: "100%",
+            padding: "10px 0px",
           }}
         >
           {/* Logo */}
           <Box>
             <IconButton>
-              <LocalMallIcon />
+              <LocalMallIcon sx={{ fontSize: "4.2rem" }} />
             </IconButton>
           </Box>
           {/* Links */}
@@ -80,6 +82,9 @@ const Navbar = () => {
             >
               <MenuItem onClick={handleClose}>Men</MenuItem>
               <MenuItem onClick={handleClose}>Women</MenuItem>
+              <MenuItem onClick={handleClose}>Phones</MenuItem>
+              <MenuItem onClick={handleClose}>Accessories</MenuItem>
+              <MenuItem onClick={handleClose}>Others</MenuItem>
             </Menu>
             <Typography
               sx={{ marginRight: "20px", cursor: "pointer", color: "#616161" }}
