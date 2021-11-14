@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <Box
       sx={{
-        minHeight: "90vh",
+        minHeight: "80vh",
         background: "url(images/header.png)",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",

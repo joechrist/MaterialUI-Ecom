@@ -1,6 +1,7 @@
 import React from "react";
 import { Autocomplete, TextField } from "@mui/material";
 
+// Data
 const data = [
   { label: "The Shawshank Redemption", year: 1994 },
   { label: "The Godfather", year: 1972 },
@@ -129,6 +130,7 @@ const data = [
   { label: "Monty Python and the Holy Grail", year: 1975 },
 ];
 
+// COMPONENT
 const MobileCategory = () => {
   return (
     <Autocomplete

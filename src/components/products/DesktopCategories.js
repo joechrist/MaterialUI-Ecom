@@ -2,6 +2,7 @@ import React from "react";
 import { Grid, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 
+// COMPONENT
 const DesktopCategories = () => {
   return (
     <Grid
@@ -9,7 +10,7 @@ const DesktopCategories = () => {
       justify="space-between"
       alignItems="center"
       container
-      spacing={2}
+      spacing={0} // spacing={2}
     >
       <Grid
         sx={{
